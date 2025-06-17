@@ -1,0 +1,31 @@
+### Variables
+@baseUrl = http://localhost:3001
+@apiKey = {{$dotenv API_KEY}}
+
+### Get Summary Metrics
+GET {{baseUrl}}/dashboard/summary
+x-api-key: {{apiKey}}
+
+### Get Summary Metrics with Filters
+GET {{baseUrl}}/dashboard/summary?timeRange=14d&studyType=clinical&region=US&ageGroup=18-25
+x-api-key: {{apiKey}}
+
+### Get Trend Data
+GET {{baseUrl}}/dashboard/trends
+x-api-key: {{apiKey}}
+
+### Get Trend Data with Time Range
+GET {{baseUrl}}/dashboard/trends?timeRange=30d
+x-api-key: {{apiKey}}
+
+### Get Comparison Data by Study Type
+GET {{baseUrl}}/dashboard/comparison/studyType
+x-api-key: {{apiKey}}
+
+### Get Comparison Data by Region
+GET {{baseUrl}}/dashboard/comparison/region
+x-api-key: {{apiKey}}
+
+### Get Comparison Data with Time Range
+GET {{baseUrl}}/dashboard/comparison/studyType?timeRange=7d
+x-api-key: {{apiKey}} 

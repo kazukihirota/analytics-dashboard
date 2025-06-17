@@ -1,0 +1,72 @@
+{
+  "studyType": {
+    "dimension": "studyType",
+    "metrics": [
+      {
+        "name": "Clinical Trials",
+        "applications": 2186,
+        "completions": 317
+      },
+      {
+        "name": "Surveys",
+        "applications": 1890,
+        "completions": 2698
+      },
+      {
+        "name": "Focus Groups",
+        "applications": 1552,
+        "completions": 709
+      },
+      {
+        "name": "Longitudinal Studies",
+        "applications": 2021,
+        "completions": 2873
+      },
+      {
+        "name": "Interviews",
+        "applications": 3452,
+        "completions": 1346
+      },
+      {
+        "name": "Observational Studies",
+        "applications": 2346,
+        "completions": 2933
+      }
+    ]
+  },
+  "ageGroup": {
+    "dimension": "ageGroup",
+    "metrics": [
+      {
+        "name": "18-24",
+        "applications": 432,
+        "completions": 378
+      },
+      {
+        "name": "25-34",
+        "applications": 3379,
+        "completions": 834
+      },
+      {
+        "name": "35-44",
+        "applications": 421,
+        "completions": 2907
+      },
+      {
+        "name": "45-54",
+        "applications": 3710,
+        "completions": 2390
+      },
+      {
+        "name": "55-64",
+        "applications": 3570,
+        "completions": 1439
+      },
+      {
+        "name": "65+",
+        "applications": 1374,
+        "completions": 1373
+      }
+    ]
+  }
+}
