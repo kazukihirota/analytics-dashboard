@@ -11,7 +11,7 @@ export const AuthMiddleware = (
   next: NextFunction
 ): void => {
   const apiKey = req.headers['x-api-key'] as string;
-  const expectedApiKey = process.env.API_KEY;
+  const expectedApiKey = process.env.API_KEY || 'test-api-key'; // TODO: Remove this in production, this is for demonstration purposes
 
   if (!apiKey) {
     res.status(StatusCodes.UNAUTHORIZED).json({

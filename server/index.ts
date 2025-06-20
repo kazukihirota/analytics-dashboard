@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 
 // Only allow access from the specified origin
 let corsOptions: CorsOptions = {
-  origin: process.env.CORS_ORIGIN,
+  origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
 };
 
 app.use(cors(corsOptions));

@@ -1,11 +1,183 @@
 {
   "summary": {
-    "totalParticipants": 12307,
-    "activeParticipants": 10967,
-    "totalStudies": 59,
-    "activeStudies": 31,
-    "averageEligibilityRate": 32.1,
-    "completionRate": 68.8
+    "overall": {
+      "7d": {
+        "totalParticipants": 10929,
+        "activeParticipants": 7062,
+        "totalStudies": 41,
+        "activeStudies": 15,
+        "averageEligibilityRate": 32.6,
+        "completionRate": 70.1
+      },
+      "14d": {
+        "totalParticipants": 14958,
+        "activeParticipants": 12533,
+        "totalStudies": 56,
+        "activeStudies": 25,
+        "averageEligibilityRate": 32.4,
+        "completionRate": 66.5
+      },
+      "30d": {
+        "totalParticipants": 18651,
+        "activeParticipants": 13626,
+        "totalStudies": 77,
+        "activeStudies": 39,
+        "averageEligibilityRate": 35.9,
+        "completionRate": 62.6
+      }
+    },
+    "byRegion": {
+      "7d": {
+        "North America": {
+          "totalParticipants": 2558,
+          "activeParticipants": 1977,
+          "totalStudies": 79,
+          "activeStudies": 35,
+          "averageEligibilityRate": 29.4,
+          "completionRate": 61.4
+        },
+        "Europe": {
+          "totalParticipants": 3479,
+          "activeParticipants": 2728,
+          "totalStudies": 41,
+          "activeStudies": 21,
+          "averageEligibilityRate": 44,
+          "completionRate": 75.5
+        },
+        "Asia Pacific": {
+          "totalParticipants": 2543,
+          "activeParticipants": 1808,
+          "totalStudies": 79,
+          "activeStudies": 37,
+          "averageEligibilityRate": 33.3,
+          "completionRate": 71.8
+        },
+        "Latin America": {
+          "totalParticipants": 3599,
+          "activeParticipants": 2160,
+          "totalStudies": 44,
+          "activeStudies": 13,
+          "averageEligibilityRate": 29,
+          "completionRate": 70.6
+        },
+        "Middle East & Africa": {
+          "totalParticipants": 2710,
+          "activeParticipants": 2199,
+          "totalStudies": 48,
+          "activeStudies": 22,
+          "averageEligibilityRate": 44.5,
+          "completionRate": 75.4
+        },
+        "Oceania": {
+          "totalParticipants": 2780,
+          "activeParticipants": 2263,
+          "totalStudies": 62,
+          "activeStudies": 27,
+          "averageEligibilityRate": 37.4,
+          "completionRate": 76.4
+        }
+      },
+      "14d": {
+        "North America": {
+          "totalParticipants": 4409,
+          "activeParticipants": 3517,
+          "totalStudies": 54,
+          "activeStudies": 17,
+          "averageEligibilityRate": 35.3,
+          "completionRate": 78.4
+        },
+        "Europe": {
+          "totalParticipants": 4723,
+          "activeParticipants": 2851,
+          "totalStudies": 51,
+          "activeStudies": 33,
+          "averageEligibilityRate": 41.8,
+          "completionRate": 72.9
+        },
+        "Asia Pacific": {
+          "totalParticipants": 5808,
+          "activeParticipants": 4563,
+          "totalStudies": 72,
+          "activeStudies": 23,
+          "averageEligibilityRate": 35.3,
+          "completionRate": 77.7
+        },
+        "Latin America": {
+          "totalParticipants": 4215,
+          "activeParticipants": 3660,
+          "totalStudies": 56,
+          "activeStudies": 19,
+          "averageEligibilityRate": 26,
+          "completionRate": 68.6
+        },
+        "Middle East & Africa": {
+          "totalParticipants": 4700,
+          "activeParticipants": 3810,
+          "totalStudies": 69,
+          "activeStudies": 43,
+          "averageEligibilityRate": 35.6,
+          "completionRate": 65.3
+        },
+        "Oceania": {
+          "totalParticipants": 4416,
+          "activeParticipants": 3363,
+          "totalStudies": 66,
+          "activeStudies": 25,
+          "averageEligibilityRate": 28,
+          "completionRate": 71.4
+        }
+      },
+      "30d": {
+        "North America": {
+          "totalParticipants": 7635,
+          "activeParticipants": 5325,
+          "totalStudies": 58,
+          "activeStudies": 29,
+          "averageEligibilityRate": 28.6,
+          "completionRate": 69.3
+        },
+        "Europe": {
+          "totalParticipants": 6816,
+          "activeParticipants": 4154,
+          "totalStudies": 61,
+          "activeStudies": 35,
+          "averageEligibilityRate": 36.2,
+          "completionRate": 60.3
+        },
+        "Asia Pacific": {
+          "totalParticipants": 8228,
+          "activeParticipants": 7350,
+          "totalStudies": 46,
+          "activeStudies": 22,
+          "averageEligibilityRate": 37.3,
+          "completionRate": 70.7
+        },
+        "Latin America": {
+          "totalParticipants": 8928,
+          "activeParticipants": 6047,
+          "totalStudies": 71,
+          "activeStudies": 42,
+          "averageEligibilityRate": 42.9,
+          "completionRate": 65.8
+        },
+        "Middle East & Africa": {
+          "totalParticipants": 7176,
+          "activeParticipants": 4992,
+          "totalStudies": 55,
+          "activeStudies": 30,
+          "averageEligibilityRate": 35.7,
+          "completionRate": 67.7
+        },
+        "Oceania": {
+          "totalParticipants": 8716,
+          "activeParticipants": 6811,
+          "totalStudies": 45,
+          "activeStudies": 31,
+          "averageEligibilityRate": 31.5,
+          "completionRate": 69
+        }
+      }
+    }
   },
   "trends": {
     "timeRanges": {
@@ -16,32 +188,32 @@
             "name": "Study Applications",
             "data": [
               {
-                "date": "2025-06-11",
-                "value": 268
-              },
-              {
-                "date": "2025-06-12",
-                "value": 369
-              },
-              {
-                "date": "2025-06-13",
-                "value": 332
-              },
-              {
                 "date": "2025-06-14",
-                "value": 285
+                "value": 443
               },
               {
                 "date": "2025-06-15",
-                "value": 435
+                "value": 442
               },
               {
                 "date": "2025-06-16",
-                "value": 437
+                "value": 404
               },
               {
                 "date": "2025-06-17",
-                "value": 407
+                "value": 178
+              },
+              {
+                "date": "2025-06-18",
+                "value": 222
+              },
+              {
+                "date": "2025-06-19",
+                "value": 408
+              },
+              {
+                "date": "2025-06-20",
+                "value": 376
               }
             ]
           },
@@ -49,31 +221,31 @@
             "name": "Study Completions",
             "data": [
               {
-                "date": "2025-06-11",
-                "value": 167
-              },
-              {
-                "date": "2025-06-12",
-                "value": 211
-              },
-              {
-                "date": "2025-06-13",
-                "value": 279
-              },
-              {
                 "date": "2025-06-14",
-                "value": 154
+                "value": 128
               },
               {
                 "date": "2025-06-15",
-                "value": 142
+                "value": 196
               },
               {
                 "date": "2025-06-16",
-                "value": 129
+                "value": 104
               },
               {
                 "date": "2025-06-17",
+                "value": 153
+              },
+              {
+                "date": "2025-06-18",
+                "value": 229
+              },
+              {
+                "date": "2025-06-19",
+                "value": 226
+              },
+              {
+                "date": "2025-06-20",
                 "value": 212
               }
             ]
@@ -82,36 +254,677 @@
             "name": "New Participants",
             "data": [
               {
-                "date": "2025-06-11",
-                "value": 103
-              },
-              {
-                "date": "2025-06-12",
-                "value": 73
-              },
-              {
-                "date": "2025-06-13",
-                "value": 133
-              },
-              {
                 "date": "2025-06-14",
-                "value": 140
+                "value": 58
               },
               {
                 "date": "2025-06-15",
-                "value": 69
+                "value": 83
               },
               {
                 "date": "2025-06-16",
-                "value": 120
+                "value": 143
               },
               {
                 "date": "2025-06-17",
-                "value": 119
+                "value": 113
+              },
+              {
+                "date": "2025-06-18",
+                "value": 139
+              },
+              {
+                "date": "2025-06-19",
+                "value": 87
+              },
+              {
+                "date": "2025-06-20",
+                "value": 60
+              }
+            ]
+          },
+          {
+            "name": "Eligibility Screenings",
+            "data": [
+              {
+                "date": "2025-06-14",
+                "value": 368
+              },
+              {
+                "date": "2025-06-15",
+                "value": 230
+              },
+              {
+                "date": "2025-06-16",
+                "value": 246
+              },
+              {
+                "date": "2025-06-17",
+                "value": 220
+              },
+              {
+                "date": "2025-06-18",
+                "value": 364
+              },
+              {
+                "date": "2025-06-19",
+                "value": 244
+              },
+              {
+                "date": "2025-06-20",
+                "value": 202
               }
             ]
           }
-        ]
+        ],
+        "regional": {
+          "North America": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 53
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 66
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 70
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 21
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 20
+                }
+              ]
+            }
+          ],
+          "Europe": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 73
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 44
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 57
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 16
+                }
+              ]
+            }
+          ],
+          "Asia Pacific": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 47
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 57
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 19
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 10
+                }
+              ]
+            }
+          ],
+          "Latin America": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 65
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 72
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 63
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 50
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 27
+                }
+              ]
+            }
+          ],
+          "Middle East & Africa": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 65
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 77
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 70
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 8
+                }
+              ]
+            }
+          ],
+          "Oceania": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 76
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 59
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 45
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-14",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 27
+                }
+              ]
+            }
+          ]
+        }
       },
       "14d": {
         "interval": "day",
@@ -120,60 +933,60 @@
             "name": "Study Applications",
             "data": [
               {
-                "date": "2025-06-04",
-                "value": 174
-              },
-              {
-                "date": "2025-06-05",
-                "value": 162
-              },
-              {
-                "date": "2025-06-06",
-                "value": 276
-              },
-              {
                 "date": "2025-06-07",
-                "value": 332
+                "value": 390
               },
               {
                 "date": "2025-06-08",
-                "value": 354
+                "value": 315
               },
               {
                 "date": "2025-06-09",
-                "value": 307
+                "value": 377
               },
               {
                 "date": "2025-06-10",
-                "value": 173
-              },
-              {
-                "date": "2025-06-11",
                 "value": 268
               },
               {
+                "date": "2025-06-11",
+                "value": 173
+              },
+              {
                 "date": "2025-06-12",
-                "value": 369
+                "value": 175
               },
               {
                 "date": "2025-06-13",
-                "value": 332
+                "value": 414
               },
               {
                 "date": "2025-06-14",
-                "value": 285
+                "value": 443
               },
               {
                 "date": "2025-06-15",
-                "value": 435
+                "value": 442
               },
               {
                 "date": "2025-06-16",
-                "value": 437
+                "value": 404
               },
               {
                 "date": "2025-06-17",
-                "value": 407
+                "value": 178
+              },
+              {
+                "date": "2025-06-18",
+                "value": 222
+              },
+              {
+                "date": "2025-06-19",
+                "value": 408
+              },
+              {
+                "date": "2025-06-20",
+                "value": 376
               }
             ]
           },
@@ -181,59 +994,59 @@
             "name": "Study Completions",
             "data": [
               {
-                "date": "2025-06-04",
-                "value": 282
-              },
-              {
-                "date": "2025-06-05",
-                "value": 137
-              },
-              {
-                "date": "2025-06-06",
-                "value": 140
-              },
-              {
                 "date": "2025-06-07",
-                "value": 263
+                "value": 272
               },
               {
                 "date": "2025-06-08",
-                "value": 254
+                "value": 293
               },
               {
                 "date": "2025-06-09",
-                "value": 288
+                "value": 241
               },
               {
                 "date": "2025-06-10",
-                "value": 142
-              },
-              {
-                "date": "2025-06-11",
-                "value": 167
-              },
-              {
-                "date": "2025-06-12",
-                "value": 211
-              },
-              {
-                "date": "2025-06-13",
-                "value": 279
-              },
-              {
-                "date": "2025-06-14",
                 "value": 154
               },
               {
+                "date": "2025-06-11",
+                "value": 230
+              },
+              {
+                "date": "2025-06-12",
+                "value": 118
+              },
+              {
+                "date": "2025-06-13",
+                "value": 241
+              },
+              {
+                "date": "2025-06-14",
+                "value": 128
+              },
+              {
                 "date": "2025-06-15",
-                "value": 142
+                "value": 196
               },
               {
                 "date": "2025-06-16",
-                "value": 129
+                "value": 104
               },
               {
                 "date": "2025-06-17",
+                "value": 153
+              },
+              {
+                "date": "2025-06-18",
+                "value": 229
+              },
+              {
+                "date": "2025-06-19",
+                "value": 226
+              },
+              {
+                "date": "2025-06-20",
                 "value": 212
               }
             ]
@@ -242,64 +1055,1237 @@
             "name": "New Participants",
             "data": [
               {
-                "date": "2025-06-04",
-                "value": 76
-              },
-              {
-                "date": "2025-06-05",
-                "value": 131
-              },
-              {
-                "date": "2025-06-06",
-                "value": 148
-              },
-              {
                 "date": "2025-06-07",
-                "value": 82
+                "value": 79
               },
               {
                 "date": "2025-06-08",
-                "value": 96
+                "value": 121
               },
               {
                 "date": "2025-06-09",
-                "value": 60
+                "value": 149
               },
               {
                 "date": "2025-06-10",
-                "value": 130
+                "value": 77
               },
               {
                 "date": "2025-06-11",
-                "value": 103
+                "value": 66
               },
               {
                 "date": "2025-06-12",
-                "value": 73
+                "value": 128
               },
               {
                 "date": "2025-06-13",
-                "value": 133
+                "value": 90
               },
               {
                 "date": "2025-06-14",
-                "value": 140
+                "value": 58
               },
               {
                 "date": "2025-06-15",
-                "value": 69
+                "value": 83
               },
               {
                 "date": "2025-06-16",
-                "value": 120
+                "value": 143
               },
               {
                 "date": "2025-06-17",
-                "value": 119
+                "value": 113
+              },
+              {
+                "date": "2025-06-18",
+                "value": 139
+              },
+              {
+                "date": "2025-06-19",
+                "value": 87
+              },
+              {
+                "date": "2025-06-20",
+                "value": 60
+              }
+            ]
+          },
+          {
+            "name": "Eligibility Screenings",
+            "data": [
+              {
+                "date": "2025-06-07",
+                "value": 479
+              },
+              {
+                "date": "2025-06-08",
+                "value": 450
+              },
+              {
+                "date": "2025-06-09",
+                "value": 489
+              },
+              {
+                "date": "2025-06-10",
+                "value": 373
+              },
+              {
+                "date": "2025-06-11",
+                "value": 331
+              },
+              {
+                "date": "2025-06-12",
+                "value": 288
+              },
+              {
+                "date": "2025-06-13",
+                "value": 446
+              },
+              {
+                "date": "2025-06-14",
+                "value": 368
+              },
+              {
+                "date": "2025-06-15",
+                "value": 230
+              },
+              {
+                "date": "2025-06-16",
+                "value": 246
+              },
+              {
+                "date": "2025-06-17",
+                "value": 220
+              },
+              {
+                "date": "2025-06-18",
+                "value": 364
+              },
+              {
+                "date": "2025-06-19",
+                "value": 244
+              },
+              {
+                "date": "2025-06-20",
+                "value": 202
               }
             ]
           }
-        ]
+        ],
+        "regional": {
+          "North America": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 46
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 53
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 66
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 70
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 56
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 21
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 9
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 20
+                }
+              ]
+            }
+          ],
+          "Europe": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 74
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 77
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 66
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 46
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 73
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 44
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 57
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 57
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 16
+                }
+              ]
+            }
+          ],
+          "Asia Pacific": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 64
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 69
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 47
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 57
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 19
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 9
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 11
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 10
+                }
+              ]
+            }
+          ],
+          "Latin America": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 37
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 64
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 63
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 65
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 72
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 63
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 50
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 27
+                }
+              ]
+            }
+          ],
+          "Middle East & Africa": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 56
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 73
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 37
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 65
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 77
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 70
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 11
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 8
+                }
+              ]
+            }
+          ],
+          "Oceania": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 71
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 38
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 76
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 59
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 45
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-06-07",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 27
+                }
+              ]
+            }
+          ]
+        }
       },
       "30d": {
         "interval": "day",
@@ -308,128 +2294,124 @@
             "name": "Study Applications",
             "data": [
               {
-                "date": "2025-05-18",
-                "value": 437
-              },
-              {
-                "date": "2025-05-19",
-                "value": 235
-              },
-              {
-                "date": "2025-05-20",
-                "value": 219
-              },
-              {
-                "date": "2025-05-21",
-                "value": 291
-              },
-              {
                 "date": "2025-05-22",
-                "value": 226
+                "value": 432
               },
               {
                 "date": "2025-05-23",
-                "value": 192
+                "value": 445
               },
               {
                 "date": "2025-05-24",
-                "value": 388
+                "value": 340
               },
               {
                 "date": "2025-05-25",
-                "value": 213
+                "value": 450
               },
               {
                 "date": "2025-05-26",
-                "value": 290
+                "value": 187
               },
               {
                 "date": "2025-05-27",
-                "value": 322
+                "value": 382
               },
               {
                 "date": "2025-05-28",
-                "value": 272
+                "value": 350
               },
               {
                 "date": "2025-05-29",
-                "value": 405
+                "value": 165
               },
               {
                 "date": "2025-05-30",
-                "value": 443
+                "value": 249
               },
               {
                 "date": "2025-05-31",
-                "value": 320
+                "value": 176
               },
               {
                 "date": "2025-06-01",
-                "value": 419
+                "value": 300
               },
               {
                 "date": "2025-06-02",
-                "value": 436
+                "value": 441
               },
               {
                 "date": "2025-06-03",
-                "value": 399
+                "value": 264
               },
               {
                 "date": "2025-06-04",
-                "value": 174
+                "value": 395
               },
               {
                 "date": "2025-06-05",
-                "value": 162
-              },
-              {
-                "date": "2025-06-06",
-                "value": 276
-              },
-              {
-                "date": "2025-06-07",
-                "value": 332
-              },
-              {
-                "date": "2025-06-08",
-                "value": 354
-              },
-              {
-                "date": "2025-06-09",
-                "value": 307
-              },
-              {
-                "date": "2025-06-10",
                 "value": 173
               },
               {
-                "date": "2025-06-11",
+                "date": "2025-06-06",
+                "value": 262
+              },
+              {
+                "date": "2025-06-07",
+                "value": 390
+              },
+              {
+                "date": "2025-06-08",
+                "value": 315
+              },
+              {
+                "date": "2025-06-09",
+                "value": 377
+              },
+              {
+                "date": "2025-06-10",
                 "value": 268
               },
               {
+                "date": "2025-06-11",
+                "value": 173
+              },
+              {
                 "date": "2025-06-12",
-                "value": 369
+                "value": 175
               },
               {
                 "date": "2025-06-13",
-                "value": 332
+                "value": 414
               },
               {
                 "date": "2025-06-14",
-                "value": 285
+                "value": 443
               },
               {
                 "date": "2025-06-15",
-                "value": 435
+                "value": 442
               },
               {
                 "date": "2025-06-16",
-                "value": 437
+                "value": 404
               },
               {
                 "date": "2025-06-17",
-                "value": 407
+                "value": 178
+              },
+              {
+                "date": "2025-06-18",
+                "value": 222
+              },
+              {
+                "date": "2025-06-19",
+                "value": 408
+              },
+              {
+                "date": "2025-06-20",
+                "value": 376
               }
             ]
           },
@@ -437,56 +2419,40 @@
             "name": "Study Completions",
             "data": [
               {
-                "date": "2025-05-18",
-                "value": 102
-              },
-              {
-                "date": "2025-05-19",
-                "value": 150
-              },
-              {
-                "date": "2025-05-20",
-                "value": 112
-              },
-              {
-                "date": "2025-05-21",
-                "value": 150
-              },
-              {
                 "date": "2025-05-22",
-                "value": 110
-              },
-              {
-                "date": "2025-05-23",
-                "value": 278
-              },
-              {
-                "date": "2025-05-24",
-                "value": 184
-              },
-              {
-                "date": "2025-05-25",
-                "value": 156
-              },
-              {
-                "date": "2025-05-26",
-                "value": 154
-              },
-              {
-                "date": "2025-05-27",
-                "value": 259
-              },
-              {
-                "date": "2025-05-28",
-                "value": 288
-              },
-              {
-                "date": "2025-05-29",
                 "value": 218
               },
               {
+                "date": "2025-05-23",
+                "value": 286
+              },
+              {
+                "date": "2025-05-24",
+                "value": 103
+              },
+              {
+                "date": "2025-05-25",
+                "value": 191
+              },
+              {
+                "date": "2025-05-26",
+                "value": 148
+              },
+              {
+                "date": "2025-05-27",
+                "value": 240
+              },
+              {
+                "date": "2025-05-28",
+                "value": 119
+              },
+              {
+                "date": "2025-05-29",
+                "value": 246
+              },
+              {
                 "date": "2025-05-30",
-                "value": 275
+                "value": 221
               },
               {
                 "date": "2025-05-31",
@@ -494,70 +2460,82 @@
               },
               {
                 "date": "2025-06-01",
-                "value": 173
+                "value": 237
               },
               {
                 "date": "2025-06-02",
-                "value": 248
-              },
-              {
-                "date": "2025-06-03",
-                "value": 180
-              },
-              {
-                "date": "2025-06-04",
-                "value": 282
-              },
-              {
-                "date": "2025-06-05",
-                "value": 137
-              },
-              {
-                "date": "2025-06-06",
-                "value": 140
-              },
-              {
-                "date": "2025-06-07",
-                "value": 263
-              },
-              {
-                "date": "2025-06-08",
-                "value": 254
-              },
-              {
-                "date": "2025-06-09",
-                "value": 288
-              },
-              {
-                "date": "2025-06-10",
-                "value": 142
-              },
-              {
-                "date": "2025-06-11",
-                "value": 167
-              },
-              {
-                "date": "2025-06-12",
-                "value": 211
-              },
-              {
-                "date": "2025-06-13",
-                "value": 279
-              },
-              {
-                "date": "2025-06-14",
-                "value": 154
-              },
-              {
-                "date": "2025-06-15",
-                "value": 142
-              },
-              {
-                "date": "2025-06-16",
                 "value": 129
               },
               {
+                "date": "2025-06-03",
+                "value": 169
+              },
+              {
+                "date": "2025-06-04",
+                "value": 278
+              },
+              {
+                "date": "2025-06-05",
+                "value": 273
+              },
+              {
+                "date": "2025-06-06",
+                "value": 267
+              },
+              {
+                "date": "2025-06-07",
+                "value": 272
+              },
+              {
+                "date": "2025-06-08",
+                "value": 293
+              },
+              {
+                "date": "2025-06-09",
+                "value": 241
+              },
+              {
+                "date": "2025-06-10",
+                "value": 154
+              },
+              {
+                "date": "2025-06-11",
+                "value": 230
+              },
+              {
+                "date": "2025-06-12",
+                "value": 118
+              },
+              {
+                "date": "2025-06-13",
+                "value": 241
+              },
+              {
+                "date": "2025-06-14",
+                "value": 128
+              },
+              {
+                "date": "2025-06-15",
+                "value": 196
+              },
+              {
+                "date": "2025-06-16",
+                "value": 104
+              },
+              {
                 "date": "2025-06-17",
+                "value": 153
+              },
+              {
+                "date": "2025-06-18",
+                "value": 229
+              },
+              {
+                "date": "2025-06-19",
+                "value": 226
+              },
+              {
+                "date": "2025-06-20",
                 "value": 212
               }
             ]
@@ -566,132 +2544,2517 @@
             "name": "New Participants",
             "data": [
               {
-                "date": "2025-05-18",
-                "value": 129
-              },
-              {
-                "date": "2025-05-19",
-                "value": 127
-              },
-              {
-                "date": "2025-05-20",
-                "value": 107
-              },
-              {
-                "date": "2025-05-21",
-                "value": 84
-              },
-              {
                 "date": "2025-05-22",
-                "value": 65
+                "value": 147
               },
               {
                 "date": "2025-05-23",
-                "value": 72
+                "value": 71
               },
               {
                 "date": "2025-05-24",
-                "value": 55
+                "value": 135
               },
               {
                 "date": "2025-05-25",
-                "value": 120
+                "value": 147
               },
               {
                 "date": "2025-05-26",
-                "value": 73
+                "value": 77
               },
               {
                 "date": "2025-05-27",
-                "value": 106
+                "value": 58
               },
               {
                 "date": "2025-05-28",
-                "value": 82
+                "value": 52
               },
               {
                 "date": "2025-05-29",
-                "value": 57
+                "value": 142
               },
               {
                 "date": "2025-05-30",
-                "value": 67
+                "value": 78
               },
               {
                 "date": "2025-05-31",
-                "value": 56
+                "value": 84
               },
               {
                 "date": "2025-06-01",
-                "value": 129
+                "value": 57
               },
               {
                 "date": "2025-06-02",
-                "value": 116
+                "value": 145
               },
               {
                 "date": "2025-06-03",
-                "value": 128
+                "value": 142
               },
               {
                 "date": "2025-06-04",
-                "value": 76
+                "value": 53
               },
               {
                 "date": "2025-06-05",
-                "value": 131
+                "value": 52
               },
               {
                 "date": "2025-06-06",
-                "value": 148
-              },
-              {
-                "date": "2025-06-07",
-                "value": 82
-              },
-              {
-                "date": "2025-06-08",
-                "value": 96
-              },
-              {
-                "date": "2025-06-09",
                 "value": 60
               },
               {
+                "date": "2025-06-07",
+                "value": 79
+              },
+              {
+                "date": "2025-06-08",
+                "value": 121
+              },
+              {
+                "date": "2025-06-09",
+                "value": 149
+              },
+              {
                 "date": "2025-06-10",
-                "value": 130
+                "value": 77
               },
               {
                 "date": "2025-06-11",
-                "value": 103
+                "value": 66
               },
               {
                 "date": "2025-06-12",
-                "value": 73
+                "value": 128
               },
               {
                 "date": "2025-06-13",
-                "value": 133
+                "value": 90
               },
               {
                 "date": "2025-06-14",
-                "value": 140
+                "value": 58
               },
               {
                 "date": "2025-06-15",
-                "value": 69
+                "value": 83
               },
               {
                 "date": "2025-06-16",
-                "value": 120
+                "value": 143
               },
               {
                 "date": "2025-06-17",
-                "value": 119
+                "value": 113
+              },
+              {
+                "date": "2025-06-18",
+                "value": 139
+              },
+              {
+                "date": "2025-06-19",
+                "value": 87
+              },
+              {
+                "date": "2025-06-20",
+                "value": 60
+              }
+            ]
+          },
+          {
+            "name": "Eligibility Screenings",
+            "data": [
+              {
+                "date": "2025-05-22",
+                "value": 458
+              },
+              {
+                "date": "2025-05-23",
+                "value": 441
+              },
+              {
+                "date": "2025-05-24",
+                "value": 403
+              },
+              {
+                "date": "2025-05-25",
+                "value": 368
+              },
+              {
+                "date": "2025-05-26",
+                "value": 267
+              },
+              {
+                "date": "2025-05-27",
+                "value": 220
+              },
+              {
+                "date": "2025-05-28",
+                "value": 324
+              },
+              {
+                "date": "2025-05-29",
+                "value": 242
+              },
+              {
+                "date": "2025-05-30",
+                "value": 245
+              },
+              {
+                "date": "2025-05-31",
+                "value": 239
+              },
+              {
+                "date": "2025-06-01",
+                "value": 227
+              },
+              {
+                "date": "2025-06-02",
+                "value": 423
+              },
+              {
+                "date": "2025-06-03",
+                "value": 344
+              },
+              {
+                "date": "2025-06-04",
+                "value": 381
+              },
+              {
+                "date": "2025-06-05",
+                "value": 495
+              },
+              {
+                "date": "2025-06-06",
+                "value": 370
+              },
+              {
+                "date": "2025-06-07",
+                "value": 479
+              },
+              {
+                "date": "2025-06-08",
+                "value": 450
+              },
+              {
+                "date": "2025-06-09",
+                "value": 489
+              },
+              {
+                "date": "2025-06-10",
+                "value": 373
+              },
+              {
+                "date": "2025-06-11",
+                "value": 331
+              },
+              {
+                "date": "2025-06-12",
+                "value": 288
+              },
+              {
+                "date": "2025-06-13",
+                "value": 446
+              },
+              {
+                "date": "2025-06-14",
+                "value": 368
+              },
+              {
+                "date": "2025-06-15",
+                "value": 230
+              },
+              {
+                "date": "2025-06-16",
+                "value": 246
+              },
+              {
+                "date": "2025-06-17",
+                "value": 220
+              },
+              {
+                "date": "2025-06-18",
+                "value": 364
+              },
+              {
+                "date": "2025-06-19",
+                "value": 244
+              },
+              {
+                "date": "2025-06-20",
+                "value": 202
               }
             ]
           }
-        ]
+        ],
+        "regional": {
+          "North America": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 76
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 54
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 53
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 30
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 55
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 55
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 40
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 64
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 51
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 72
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 63
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 71
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 67
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 68
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 46
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 53
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 66
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 70
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 45
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 51
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 43
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 47
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 22
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 42
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 18
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 36
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 25
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 56
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 21
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 19
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 8
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 28
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 17
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 21
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 18
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 11
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 9
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 20
+                }
+              ]
+            }
+          ],
+          "Europe": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 32
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 71
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 62
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 74
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 32
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 42
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 30
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 45
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 76
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 70
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 57
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 74
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 74
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 77
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 66
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 46
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 73
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 44
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 50
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 50
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 59
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 55
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 46
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 48
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 21
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 32
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 57
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 57
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 30
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 28
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 25
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 27
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 12
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 17
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 17
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 13
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 9
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 16
+                }
+              ]
+            }
+          ],
+          "Asia Pacific": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 34
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 35
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 65
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 23
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 69
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 60
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 64
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 33
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 52
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 53
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 59
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 64
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 76
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 69
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 47
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 57
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 47
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 49
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 19
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 23
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 37
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 30
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 45
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 37
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 19
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 11
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 13
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 26
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 18
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 24
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 15
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 9
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 9
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 21
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 9
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 11
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 10
+                }
+              ]
+            }
+          ],
+          "Latin America": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 29
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 42
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 71
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 36
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 79
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 37
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 55
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 77
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 31
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 33
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 77
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 37
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 64
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 63
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 65
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 72
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 63
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 37
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 49
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 34
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 54
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 46
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 51
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 44
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 42
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 45
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 56
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 47
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 45
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 48
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 50
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 11
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 16
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 26
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 18
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 16
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 17
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 8
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 28
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 26
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 11
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 27
+                }
+              ]
+            }
+          ],
+          "Middle East & Africa": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 67
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 79
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 77
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 65
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 48
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 41
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 29
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 45
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 47
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 68
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 38
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 79
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 56
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 39
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 73
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 37
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 35
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 50
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 65
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 77
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 62
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 70
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 32
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 42
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 46
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 41
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 23
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 28
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 50
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 22
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 31
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 42
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 17
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 54
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 11
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 29
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 18
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 15
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 16
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 13
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 28
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 10
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 12
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 11
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 8
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 11
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 19
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 29
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 27
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 13
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 8
+                }
+              ]
+            }
+          ],
+          "Oceania": [
+            {
+              "name": "Study Applications",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 51
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 52
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 80
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 68
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 76
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 58
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 49
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 21
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 59
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 55
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 63
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 72
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 71
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 30
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 58
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 38
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 28
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 49
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 76
+                }
+              ]
+            },
+            {
+              "name": "Study Completions",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 51
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 26
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 29
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 46
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 40
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 39
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 27
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 50
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 15
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 24
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 53
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 44
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 60
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 31
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 41
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 52
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 40
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 21
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 36
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 51
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 43
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 59
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 32
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 45
+                }
+              ]
+            },
+            {
+              "name": "New Participants",
+              "data": [
+                {
+                  "date": "2025-05-22",
+                  "value": 30
+                },
+                {
+                  "date": "2025-05-23",
+                  "value": 11
+                },
+                {
+                  "date": "2025-05-24",
+                  "value": 30
+                },
+                {
+                  "date": "2025-05-25",
+                  "value": 13
+                },
+                {
+                  "date": "2025-05-26",
+                  "value": 24
+                },
+                {
+                  "date": "2025-05-27",
+                  "value": 23
+                },
+                {
+                  "date": "2025-05-28",
+                  "value": 20
+                },
+                {
+                  "date": "2025-05-29",
+                  "value": 10
+                },
+                {
+                  "date": "2025-05-30",
+                  "value": 23
+                },
+                {
+                  "date": "2025-05-31",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-01",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-02",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-03",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-04",
+                  "value": 26
+                },
+                {
+                  "date": "2025-06-05",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-06",
+                  "value": 23
+                },
+                {
+                  "date": "2025-06-07",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-08",
+                  "value": 18
+                },
+                {
+                  "date": "2025-06-09",
+                  "value": 20
+                },
+                {
+                  "date": "2025-06-10",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-11",
+                  "value": 14
+                },
+                {
+                  "date": "2025-06-12",
+                  "value": 10
+                },
+                {
+                  "date": "2025-06-13",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-14",
+                  "value": 16
+                },
+                {
+                  "date": "2025-06-15",
+                  "value": 25
+                },
+                {
+                  "date": "2025-06-16",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-17",
+                  "value": 12
+                },
+                {
+                  "date": "2025-06-18",
+                  "value": 22
+                },
+                {
+                  "date": "2025-06-19",
+                  "value": 15
+                },
+                {
+                  "date": "2025-06-20",
+                  "value": 27
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   },
@@ -701,33 +5064,68 @@
       "metrics": [
         {
           "name": "Clinical Trials",
-          "applications": 2186,
-          "completions": 317
+          "applications": 715,
+          "completions": 1519
         },
         {
           "name": "Surveys",
-          "applications": 1890,
-          "completions": 2698
+          "applications": 3577,
+          "completions": 2152
         },
         {
           "name": "Focus Groups",
-          "applications": 1552,
-          "completions": 709
+          "applications": 3146,
+          "completions": 1202
         },
         {
           "name": "Longitudinal Studies",
-          "applications": 2021,
-          "completions": 2873
+          "applications": 3808,
+          "completions": 520
         },
         {
           "name": "Interviews",
-          "applications": 3452,
-          "completions": 1346
+          "applications": 1822,
+          "completions": 1241
         },
         {
           "name": "Observational Studies",
-          "applications": 2346,
-          "completions": 2933
+          "applications": 857,
+          "completions": 1648
+        }
+      ]
+    },
+    "region": {
+      "dimension": "region",
+      "metrics": [
+        {
+          "name": "North America",
+          "applications": 1466,
+          "completions": 2075
+        },
+        {
+          "name": "Europe",
+          "applications": 3894,
+          "completions": 370
+        },
+        {
+          "name": "Asia Pacific",
+          "applications": 2024,
+          "completions": 956
+        },
+        {
+          "name": "Latin America",
+          "applications": 1266,
+          "completions": 2825
+        },
+        {
+          "name": "Middle East & Africa",
+          "applications": 4590,
+          "completions": 3359
+        },
+        {
+          "name": "Oceania",
+          "applications": 2164,
+          "completions": 3023
         }
       ]
     },
@@ -736,35 +5134,689 @@
       "metrics": [
         {
           "name": "18-24",
-          "applications": 432,
-          "completions": 378
+          "applications": 1275,
+          "completions": 1419
         },
         {
           "name": "25-34",
-          "applications": 3379,
-          "completions": 834
+          "applications": 1995,
+          "completions": 1380
         },
         {
           "name": "35-44",
-          "applications": 421,
-          "completions": 2907
+          "applications": 1042,
+          "completions": 2313
         },
         {
           "name": "45-54",
-          "applications": 3710,
-          "completions": 2390
+          "applications": 3031,
+          "completions": 1584
         },
         {
           "name": "55-64",
-          "applications": 3570,
-          "completions": 1439
+          "applications": 2141,
+          "completions": 2027
         },
         {
           "name": "65+",
-          "applications": 1374,
-          "completions": 1373
+          "applications": 490,
+          "completions": 2316
+        }
+      ]
+    },
+    "regionalStudyTypes": {
+      "North America": [
+        {
+          "name": "Clinical Trials",
+          "applications": 736,
+          "completions": 224
+        },
+        {
+          "name": "Surveys",
+          "applications": 57,
+          "completions": 194
+        },
+        {
+          "name": "Focus Groups",
+          "applications": 755,
+          "completions": 519
+        },
+        {
+          "name": "Longitudinal Studies",
+          "applications": 311,
+          "completions": 251
+        },
+        {
+          "name": "Interviews",
+          "applications": 349,
+          "completions": 375
+        },
+        {
+          "name": "Observational Studies",
+          "applications": 668,
+          "completions": 188
+        }
+      ],
+      "Europe": [
+        {
+          "name": "Clinical Trials",
+          "applications": 376,
+          "completions": 140
+        },
+        {
+          "name": "Surveys",
+          "applications": 552,
+          "completions": 76
+        },
+        {
+          "name": "Focus Groups",
+          "applications": 445,
+          "completions": 166
+        },
+        {
+          "name": "Longitudinal Studies",
+          "applications": 629,
+          "completions": 51
+        },
+        {
+          "name": "Interviews",
+          "applications": 767,
+          "completions": 209
+        },
+        {
+          "name": "Observational Studies",
+          "applications": 114,
+          "completions": 490
+        }
+      ],
+      "Asia Pacific": [
+        {
+          "name": "Clinical Trials",
+          "applications": 637,
+          "completions": 398
+        },
+        {
+          "name": "Surveys",
+          "applications": 211,
+          "completions": 191
+        },
+        {
+          "name": "Focus Groups",
+          "applications": 355,
+          "completions": 93
+        },
+        {
+          "name": "Longitudinal Studies",
+          "applications": 360,
+          "completions": 498
+        },
+        {
+          "name": "Interviews",
+          "applications": 739,
+          "completions": 88
+        },
+        {
+          "name": "Observational Studies",
+          "applications": 233,
+          "completions": 35
+        }
+      ],
+      "Latin America": [
+        {
+          "name": "Clinical Trials",
+          "applications": 372,
+          "completions": 309
+        },
+        {
+          "name": "Surveys",
+          "applications": 274,
+          "completions": 126
+        },
+        {
+          "name": "Focus Groups",
+          "applications": 200,
+          "completions": 169
+        },
+        {
+          "name": "Longitudinal Studies",
+          "applications": 552,
+          "completions": 458
+        },
+        {
+          "name": "Interviews",
+          "applications": 273,
+          "completions": 84
+        },
+        {
+          "name": "Observational Studies",
+          "applications": 226,
+          "completions": 68
+        }
+      ],
+      "Middle East & Africa": [
+        {
+          "name": "Clinical Trials",
+          "applications": 419,
+          "completions": 170
+        },
+        {
+          "name": "Surveys",
+          "applications": 638,
+          "completions": 138
+        },
+        {
+          "name": "Focus Groups",
+          "applications": 119,
+          "completions": 351
+        },
+        {
+          "name": "Longitudinal Studies",
+          "applications": 694,
+          "completions": 456
+        },
+        {
+          "name": "Interviews",
+          "applications": 217,
+          "completions": 222
+        },
+        {
+          "name": "Observational Studies",
+          "applications": 409,
+          "completions": 227
+        }
+      ],
+      "Oceania": [
+        {
+          "name": "Clinical Trials",
+          "applications": 195,
+          "completions": 545
+        },
+        {
+          "name": "Surveys",
+          "applications": 159,
+          "completions": 441
+        },
+        {
+          "name": "Focus Groups",
+          "applications": 128,
+          "completions": 291
+        },
+        {
+          "name": "Longitudinal Studies",
+          "applications": 510,
+          "completions": 374
+        },
+        {
+          "name": "Interviews",
+          "applications": 681,
+          "completions": 267
+        },
+        {
+          "name": "Observational Studies",
+          "applications": 286,
+          "completions": 204
         }
       ]
     }
+  },
+  "demographics": {
+    "overall": {
+      "gender": {
+        "dimension": "gender",
+        "metrics": [
+          {
+            "name": "Male",
+            "count": 1989,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 2574,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 2016,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 1065,
+            "percentage": 27
+          }
+        ]
+      },
+      "education": {
+        "dimension": "education",
+        "metrics": [
+          {
+            "name": "High School",
+            "count": 1963,
+            "percentage": 33.1
+          },
+          {
+            "name": "Associate Degree",
+            "count": 203,
+            "percentage": 34.4
+          },
+          {
+            "name": "Bachelor's Degree",
+            "count": 2575,
+            "percentage": 10
+          },
+          {
+            "name": "Master's Degree",
+            "count": 3651,
+            "percentage": 32.3
+          },
+          {
+            "name": "Doctoral Degree",
+            "count": 974,
+            "percentage": 26
+          },
+          {
+            "name": "Other",
+            "count": 2215,
+            "percentage": 7.6
+          }
+        ]
+      },
+      "employment": {
+        "dimension": "employment",
+        "metrics": [
+          {
+            "name": "Full-time",
+            "count": 2284,
+            "percentage": 27.9
+          },
+          {
+            "name": "Part-time",
+            "count": 4353,
+            "percentage": 19.1
+          },
+          {
+            "name": "Self-employed",
+            "count": 1165,
+            "percentage": 30.3
+          },
+          {
+            "name": "Unemployed",
+            "count": 3959,
+            "percentage": 19.8
+          },
+          {
+            "name": "Student",
+            "count": 555,
+            "percentage": 25
+          },
+          {
+            "name": "Retired",
+            "count": 3838,
+            "percentage": 26.6
+          }
+        ]
+      }
+    },
+    "byRegion": {
+      "North America": {
+        "gender": [
+          {
+            "name": "Male",
+            "count": 757,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 931,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 771,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 852,
+            "percentage": 27
+          }
+        ],
+        "ageDistribution": [
+          {
+            "name": "18-24",
+            "count": 777,
+            "percentage": 16.9
+          },
+          {
+            "name": "25-34",
+            "count": 820,
+            "percentage": 8.4
+          },
+          {
+            "name": "35-44",
+            "count": 506,
+            "percentage": 13.1
+          },
+          {
+            "name": "45-54",
+            "count": 1473,
+            "percentage": 18.3
+          },
+          {
+            "name": "55-64",
+            "count": 483,
+            "percentage": 18.7
+          },
+          {
+            "name": "65+",
+            "count": 1137,
+            "percentage": 17.5
+          }
+        ]
+      },
+      "Europe": {
+        "gender": [
+          {
+            "name": "Male",
+            "count": 442,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 599,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 949,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 117,
+            "percentage": 27
+          }
+        ],
+        "ageDistribution": [
+          {
+            "name": "18-24",
+            "count": 105,
+            "percentage": 20.1
+          },
+          {
+            "name": "25-34",
+            "count": 353,
+            "percentage": 24.8
+          },
+          {
+            "name": "35-44",
+            "count": 388,
+            "percentage": 8.6
+          },
+          {
+            "name": "45-54",
+            "count": 694,
+            "percentage": 11.1
+          },
+          {
+            "name": "55-64",
+            "count": 527,
+            "percentage": 22.2
+          },
+          {
+            "name": "65+",
+            "count": 1206,
+            "percentage": 10.3
+          }
+        ]
+      },
+      "Asia Pacific": {
+        "gender": [
+          {
+            "name": "Male",
+            "count": 634,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 199,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 531,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 410,
+            "percentage": 27
+          }
+        ],
+        "ageDistribution": [
+          {
+            "name": "18-24",
+            "count": 212,
+            "percentage": 22.9
+          },
+          {
+            "name": "25-34",
+            "count": 1106,
+            "percentage": 12.1
+          },
+          {
+            "name": "35-44",
+            "count": 1052,
+            "percentage": 19.5
+          },
+          {
+            "name": "45-54",
+            "count": 595,
+            "percentage": 14.5
+          },
+          {
+            "name": "55-64",
+            "count": 924,
+            "percentage": 23.5
+          },
+          {
+            "name": "65+",
+            "count": 233,
+            "percentage": 15.4
+          }
+        ]
+      },
+      "Latin America": {
+        "gender": [
+          {
+            "name": "Male",
+            "count": 484,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 671,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 417,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 891,
+            "percentage": 27
+          }
+        ],
+        "ageDistribution": [
+          {
+            "name": "18-24",
+            "count": 1171,
+            "percentage": 11
+          },
+          {
+            "name": "25-34",
+            "count": 129,
+            "percentage": 15.8
+          },
+          {
+            "name": "35-44",
+            "count": 134,
+            "percentage": 19.2
+          },
+          {
+            "name": "45-54",
+            "count": 366,
+            "percentage": 8.6
+          },
+          {
+            "name": "55-64",
+            "count": 755,
+            "percentage": 8.2
+          },
+          {
+            "name": "65+",
+            "count": 1102,
+            "percentage": 14.6
+          }
+        ]
+      },
+      "Middle East & Africa": {
+        "gender": [
+          {
+            "name": "Male",
+            "count": 605,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 570,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 203,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 418,
+            "percentage": 27
+          }
+        ],
+        "ageDistribution": [
+          {
+            "name": "18-24",
+            "count": 590,
+            "percentage": 20.2
+          },
+          {
+            "name": "25-34",
+            "count": 1021,
+            "percentage": 19.7
+          },
+          {
+            "name": "35-44",
+            "count": 1161,
+            "percentage": 17.9
+          },
+          {
+            "name": "45-54",
+            "count": 1150,
+            "percentage": 18.9
+          },
+          {
+            "name": "55-64",
+            "count": 1114,
+            "percentage": 8.5
+          },
+          {
+            "name": "65+",
+            "count": 1488,
+            "percentage": 11.2
+          }
+        ]
+      },
+      "Oceania": {
+        "gender": [
+          {
+            "name": "Male",
+            "count": 982,
+            "percentage": 49.4
+          },
+          {
+            "name": "Female",
+            "count": 610,
+            "percentage": 26.1
+          },
+          {
+            "name": "Non-binary",
+            "count": 989,
+            "percentage": 36.2
+          },
+          {
+            "name": "Prefer not to say",
+            "count": 895,
+            "percentage": 27
+          }
+        ],
+        "ageDistribution": [
+          {
+            "name": "18-24",
+            "count": 1059,
+            "percentage": 10.8
+          },
+          {
+            "name": "25-34",
+            "count": 246,
+            "percentage": 15.8
+          },
+          {
+            "name": "35-44",
+            "count": 1203,
+            "percentage": 10.2
+          },
+          {
+            "name": "45-54",
+            "count": 152,
+            "percentage": 24.6
+          },
+          {
+            "name": "55-64",
+            "count": 896,
+            "percentage": 14.5
+          },
+          {
+            "name": "65+",
+            "count": 310,
+            "percentage": 11.4
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "generatedAt": "2025-06-20T06:44:43.312Z",
+    "dateRange": {
+      "start": "2025-05-21",
+      "end": "2025-06-20"
+    },
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East & Africa",
+      "Oceania"
+    ],
+    "studyTypes": [
+      "Clinical Trials",
+      "Surveys",
+      "Focus Groups",
+      "Longitudinal Studies",
+      "Interviews",
+      "Observational Studies"
+    ]
   }
 }

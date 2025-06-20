@@ -1,8 +1,1058 @@
 {
-  "totalParticipants": 12307,
-  "activeParticipants": 10967,
-  "totalStudies": 59,
-  "activeStudies": 31,
-  "averageEligibilityRate": 32.1,
-  "completionRate": 68.8
+  "7d": {
+    "all": {
+      "clinicalTrials": {
+        "totalParticipants": 11983,
+        "activeParticipants": 9438,
+        "totalStudies": 49,
+        "activeStudies": 26,
+        "averageEligibilityRate": 44.4,
+        "completionRate": 67.7
+      },
+      "surveys": {
+        "totalParticipants": 9765,
+        "activeParticipants": 6386,
+        "totalStudies": 56,
+        "activeStudies": 31,
+        "averageEligibilityRate": 30.5,
+        "completionRate": 76.3
+      },
+      "focusGroups": {
+        "totalParticipants": 11737,
+        "activeParticipants": 8356,
+        "totalStudies": 41,
+        "activeStudies": 20,
+        "averageEligibilityRate": 31,
+        "completionRate": 75.9
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 9834,
+        "activeParticipants": 8041,
+        "totalStudies": 51,
+        "activeStudies": 20,
+        "averageEligibilityRate": 26.9,
+        "completionRate": 61.3
+      },
+      "interviews": {
+        "totalParticipants": 10798,
+        "activeParticipants": 7727,
+        "totalStudies": 67,
+        "activeStudies": 20,
+        "averageEligibilityRate": 41.7,
+        "completionRate": 66.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 11437,
+        "activeParticipants": 8759,
+        "totalStudies": 48,
+        "activeStudies": 15,
+        "averageEligibilityRate": 39.3,
+        "completionRate": 71.4
+      }
+    },
+    "northAmerica": {
+      "clinicalTrials": {
+        "totalParticipants": 3273,
+        "activeParticipants": 2602,
+        "totalStudies": 55,
+        "activeStudies": 38,
+        "averageEligibilityRate": 29.2,
+        "completionRate": 68.4
+      },
+      "surveys": {
+        "totalParticipants": 3595,
+        "activeParticipants": 2261,
+        "totalStudies": 68,
+        "activeStudies": 42,
+        "averageEligibilityRate": 31.9,
+        "completionRate": 64.4
+      },
+      "focusGroups": {
+        "totalParticipants": 2755,
+        "activeParticipants": 2208,
+        "totalStudies": 59,
+        "activeStudies": 34,
+        "averageEligibilityRate": 32.4,
+        "completionRate": 76.9
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 2803,
+        "activeParticipants": 1869,
+        "totalStudies": 58,
+        "activeStudies": 28,
+        "averageEligibilityRate": 40.1,
+        "completionRate": 62.5
+      },
+      "interviews": {
+        "totalParticipants": 2740,
+        "activeParticipants": 1762,
+        "totalStudies": 76,
+        "activeStudies": 50,
+        "averageEligibilityRate": 32.6,
+        "completionRate": 66.4
+      },
+      "observationalStudies": {
+        "totalParticipants": 3461,
+        "activeParticipants": 3063,
+        "totalStudies": 71,
+        "activeStudies": 24,
+        "averageEligibilityRate": 31.6,
+        "completionRate": 61.5
+      }
+    },
+    "europe": {
+      "clinicalTrials": {
+        "totalParticipants": 2901,
+        "activeParticipants": 2608,
+        "totalStudies": 52,
+        "activeStudies": 17,
+        "averageEligibilityRate": 38.7,
+        "completionRate": 62.9
+      },
+      "surveys": {
+        "totalParticipants": 2451,
+        "activeParticipants": 1529,
+        "totalStudies": 76,
+        "activeStudies": 24,
+        "averageEligibilityRate": 37.1,
+        "completionRate": 76.4
+      },
+      "focusGroups": {
+        "totalParticipants": 3178,
+        "activeParticipants": 2035,
+        "totalStudies": 45,
+        "activeStudies": 27,
+        "averageEligibilityRate": 32.3,
+        "completionRate": 64.3
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 3140,
+        "activeParticipants": 2197,
+        "totalStudies": 62,
+        "activeStudies": 43,
+        "averageEligibilityRate": 35,
+        "completionRate": 69.9
+      },
+      "interviews": {
+        "totalParticipants": 2647,
+        "activeParticipants": 1792,
+        "totalStudies": 65,
+        "activeStudies": 45,
+        "averageEligibilityRate": 31.9,
+        "completionRate": 61
+      },
+      "observationalStudies": {
+        "totalParticipants": 2964,
+        "activeParticipants": 2575,
+        "totalStudies": 60,
+        "activeStudies": 39,
+        "averageEligibilityRate": 31.3,
+        "completionRate": 62.9
+      }
+    },
+    "asiaPacific": {
+      "clinicalTrials": {
+        "totalParticipants": 2910,
+        "activeParticipants": 2253,
+        "totalStudies": 74,
+        "activeStudies": 50,
+        "averageEligibilityRate": 29.2,
+        "completionRate": 70.4
+      },
+      "surveys": {
+        "totalParticipants": 2471,
+        "activeParticipants": 1609,
+        "totalStudies": 48,
+        "activeStudies": 21,
+        "averageEligibilityRate": 31.6,
+        "completionRate": 67.5
+      },
+      "focusGroups": {
+        "totalParticipants": 2769,
+        "activeParticipants": 2465,
+        "totalStudies": 63,
+        "activeStudies": 34,
+        "averageEligibilityRate": 32.1,
+        "completionRate": 65.1
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 2731,
+        "activeParticipants": 1883,
+        "totalStudies": 75,
+        "activeStudies": 32,
+        "averageEligibilityRate": 32.7,
+        "completionRate": 66.5
+      },
+      "interviews": {
+        "totalParticipants": 2994,
+        "activeParticipants": 1817,
+        "totalStudies": 63,
+        "activeStudies": 27,
+        "averageEligibilityRate": 44.3,
+        "completionRate": 61.6
+      },
+      "observationalStudies": {
+        "totalParticipants": 3517,
+        "activeParticipants": 2260,
+        "totalStudies": 61,
+        "activeStudies": 30,
+        "averageEligibilityRate": 42,
+        "completionRate": 63.2
+      }
+    },
+    "latinAmerica": {
+      "clinicalTrials": {
+        "totalParticipants": 2977,
+        "activeParticipants": 2240,
+        "totalStudies": 77,
+        "activeStudies": 36,
+        "averageEligibilityRate": 34.9,
+        "completionRate": 76.8
+      },
+      "surveys": {
+        "totalParticipants": 2446,
+        "activeParticipants": 1537,
+        "totalStudies": 79,
+        "activeStudies": 35,
+        "averageEligibilityRate": 43.5,
+        "completionRate": 69.9
+      },
+      "focusGroups": {
+        "totalParticipants": 3007,
+        "activeParticipants": 2628,
+        "totalStudies": 58,
+        "activeStudies": 34,
+        "averageEligibilityRate": 38.5,
+        "completionRate": 68.9
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 2722,
+        "activeParticipants": 2048,
+        "totalStudies": 64,
+        "activeStudies": 21,
+        "averageEligibilityRate": 36.6,
+        "completionRate": 74.3
+      },
+      "interviews": {
+        "totalParticipants": 2666,
+        "activeParticipants": 1922,
+        "totalStudies": 61,
+        "activeStudies": 35,
+        "averageEligibilityRate": 36.7,
+        "completionRate": 74.4
+      },
+      "observationalStudies": {
+        "totalParticipants": 3581,
+        "activeParticipants": 2921,
+        "totalStudies": 54,
+        "activeStudies": 20,
+        "averageEligibilityRate": 44.5,
+        "completionRate": 71.7
+      }
+    },
+    "middleEastAfrica": {
+      "clinicalTrials": {
+        "totalParticipants": 3109,
+        "activeParticipants": 2177,
+        "totalStudies": 73,
+        "activeStudies": 51,
+        "averageEligibilityRate": 38.4,
+        "completionRate": 70.8
+      },
+      "surveys": {
+        "totalParticipants": 2881,
+        "activeParticipants": 2229,
+        "totalStudies": 62,
+        "activeStudies": 43,
+        "averageEligibilityRate": 30.1,
+        "completionRate": 67.3
+      },
+      "focusGroups": {
+        "totalParticipants": 2809,
+        "activeParticipants": 1944,
+        "totalStudies": 44,
+        "activeStudies": 23,
+        "averageEligibilityRate": 39.2,
+        "completionRate": 63.6
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 3527,
+        "activeParticipants": 2669,
+        "totalStudies": 74,
+        "activeStudies": 29,
+        "averageEligibilityRate": 27.2,
+        "completionRate": 79.5
+      },
+      "interviews": {
+        "totalParticipants": 2470,
+        "activeParticipants": 1869,
+        "totalStudies": 77,
+        "activeStudies": 33,
+        "averageEligibilityRate": 36.3,
+        "completionRate": 76.5
+      },
+      "observationalStudies": {
+        "totalParticipants": 2678,
+        "activeParticipants": 1674,
+        "totalStudies": 64,
+        "activeStudies": 44,
+        "averageEligibilityRate": 27.5,
+        "completionRate": 75.6
+      }
+    },
+    "oceania": {
+      "clinicalTrials": {
+        "totalParticipants": 3446,
+        "activeParticipants": 2534,
+        "totalStudies": 45,
+        "activeStudies": 29,
+        "averageEligibilityRate": 32.8,
+        "completionRate": 70.2
+      },
+      "surveys": {
+        "totalParticipants": 3527,
+        "activeParticipants": 2140,
+        "totalStudies": 58,
+        "activeStudies": 24,
+        "averageEligibilityRate": 28.6,
+        "completionRate": 63.3
+      },
+      "focusGroups": {
+        "totalParticipants": 2698,
+        "activeParticipants": 2369,
+        "totalStudies": 67,
+        "activeStudies": 34,
+        "averageEligibilityRate": 30.9,
+        "completionRate": 78.8
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 2790,
+        "activeParticipants": 2023,
+        "totalStudies": 79,
+        "activeStudies": 49,
+        "averageEligibilityRate": 38.9,
+        "completionRate": 63.5
+      },
+      "interviews": {
+        "totalParticipants": 3515,
+        "activeParticipants": 2906,
+        "totalStudies": 79,
+        "activeStudies": 55,
+        "averageEligibilityRate": 33.8,
+        "completionRate": 78.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 3164,
+        "activeParticipants": 2793,
+        "totalStudies": 72,
+        "activeStudies": 37,
+        "averageEligibilityRate": 40.6,
+        "completionRate": 72.4
+      }
+    }
+  },
+  "14d": {
+    "all": {
+      "clinicalTrials": {
+        "totalParticipants": 15043,
+        "activeParticipants": 9391,
+        "totalStudies": 46,
+        "activeStudies": 24,
+        "averageEligibilityRate": 44.8,
+        "completionRate": 71.3
+      },
+      "surveys": {
+        "totalParticipants": 17881,
+        "activeParticipants": 14378,
+        "totalStudies": 71,
+        "activeStudies": 24,
+        "averageEligibilityRate": 28.4,
+        "completionRate": 60.6
+      },
+      "focusGroups": {
+        "totalParticipants": 15751,
+        "activeParticipants": 11580,
+        "totalStudies": 57,
+        "activeStudies": 19,
+        "averageEligibilityRate": 40.3,
+        "completionRate": 76.3
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 17386,
+        "activeParticipants": 12834,
+        "totalStudies": 79,
+        "activeStudies": 37,
+        "averageEligibilityRate": 35.4,
+        "completionRate": 68.9
+      },
+      "interviews": {
+        "totalParticipants": 15751,
+        "activeParticipants": 12277,
+        "totalStudies": 68,
+        "activeStudies": 26,
+        "averageEligibilityRate": 39,
+        "completionRate": 79.1
+      },
+      "observationalStudies": {
+        "totalParticipants": 16171,
+        "activeParticipants": 12611,
+        "totalStudies": 67,
+        "activeStudies": 23,
+        "averageEligibilityRate": 26.6,
+        "completionRate": 73.1
+      }
+    },
+    "northAmerica": {
+      "clinicalTrials": {
+        "totalParticipants": 4672,
+        "activeParticipants": 3321,
+        "totalStudies": 51,
+        "activeStudies": 19,
+        "averageEligibilityRate": 41.1,
+        "completionRate": 70.5
+      },
+      "surveys": {
+        "totalParticipants": 4329,
+        "activeParticipants": 3340,
+        "totalStudies": 71,
+        "activeStudies": 27,
+        "averageEligibilityRate": 26,
+        "completionRate": 61.4
+      },
+      "focusGroups": {
+        "totalParticipants": 4336,
+        "activeParticipants": 2957,
+        "totalStudies": 76,
+        "activeStudies": 34,
+        "averageEligibilityRate": 27,
+        "completionRate": 65.2
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 5378,
+        "activeParticipants": 4376,
+        "totalStudies": 72,
+        "activeStudies": 30,
+        "averageEligibilityRate": 33.6,
+        "completionRate": 74.7
+      },
+      "interviews": {
+        "totalParticipants": 5057,
+        "activeParticipants": 3753,
+        "totalStudies": 51,
+        "activeStudies": 18,
+        "averageEligibilityRate": 34.9,
+        "completionRate": 67
+      },
+      "observationalStudies": {
+        "totalParticipants": 4696,
+        "activeParticipants": 2953,
+        "totalStudies": 48,
+        "activeStudies": 26,
+        "averageEligibilityRate": 29,
+        "completionRate": 61.4
+      }
+    },
+    "europe": {
+      "clinicalTrials": {
+        "totalParticipants": 5499,
+        "activeParticipants": 4027,
+        "totalStudies": 72,
+        "activeStudies": 43,
+        "averageEligibilityRate": 33.5,
+        "completionRate": 67.3
+      },
+      "surveys": {
+        "totalParticipants": 4185,
+        "activeParticipants": 3528,
+        "totalStudies": 75,
+        "activeStudies": 32,
+        "averageEligibilityRate": 39.3,
+        "completionRate": 60.3
+      },
+      "focusGroups": {
+        "totalParticipants": 5561,
+        "activeParticipants": 4961,
+        "totalStudies": 68,
+        "activeStudies": 36,
+        "averageEligibilityRate": 29.9,
+        "completionRate": 68
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 5345,
+        "activeParticipants": 3959,
+        "totalStudies": 55,
+        "activeStudies": 38,
+        "averageEligibilityRate": 27.9,
+        "completionRate": 77.6
+      },
+      "interviews": {
+        "totalParticipants": 4687,
+        "activeParticipants": 3801,
+        "totalStudies": 51,
+        "activeStudies": 33,
+        "averageEligibilityRate": 30.3,
+        "completionRate": 70.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 4817,
+        "activeParticipants": 3724,
+        "totalStudies": 51,
+        "activeStudies": 26,
+        "averageEligibilityRate": 33.8,
+        "completionRate": 71.9
+      }
+    },
+    "asiaPacific": {
+      "clinicalTrials": {
+        "totalParticipants": 5353,
+        "activeParticipants": 4490,
+        "totalStudies": 58,
+        "activeStudies": 28,
+        "averageEligibilityRate": 32,
+        "completionRate": 62.3
+      },
+      "surveys": {
+        "totalParticipants": 5646,
+        "activeParticipants": 4133,
+        "totalStudies": 46,
+        "activeStudies": 32,
+        "averageEligibilityRate": 31.8,
+        "completionRate": 64.6
+      },
+      "focusGroups": {
+        "totalParticipants": 5762,
+        "activeParticipants": 4000,
+        "totalStudies": 46,
+        "activeStudies": 29,
+        "averageEligibilityRate": 38.2,
+        "completionRate": 75.6
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 4565,
+        "activeParticipants": 3160,
+        "totalStudies": 58,
+        "activeStudies": 23,
+        "averageEligibilityRate": 44.4,
+        "completionRate": 68.5
+      },
+      "interviews": {
+        "totalParticipants": 4336,
+        "activeParticipants": 3516,
+        "totalStudies": 46,
+        "activeStudies": 29,
+        "averageEligibilityRate": 27.1,
+        "completionRate": 60.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 4446,
+        "activeParticipants": 2985,
+        "totalStudies": 58,
+        "activeStudies": 34,
+        "averageEligibilityRate": 31.4,
+        "completionRate": 69.6
+      }
+    },
+    "latinAmerica": {
+      "clinicalTrials": {
+        "totalParticipants": 5847,
+        "activeParticipants": 3898,
+        "totalStudies": 64,
+        "activeStudies": 35,
+        "averageEligibilityRate": 36.7,
+        "completionRate": 66.7
+      },
+      "surveys": {
+        "totalParticipants": 5963,
+        "activeParticipants": 4716,
+        "totalStudies": 75,
+        "activeStudies": 28,
+        "averageEligibilityRate": 31.7,
+        "completionRate": 69.4
+      },
+      "focusGroups": {
+        "totalParticipants": 5635,
+        "activeParticipants": 4440,
+        "totalStudies": 44,
+        "activeStudies": 13,
+        "averageEligibilityRate": 29.8,
+        "completionRate": 62.1
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 5988,
+        "activeParticipants": 4810,
+        "totalStudies": 64,
+        "activeStudies": 38,
+        "averageEligibilityRate": 26.7,
+        "completionRate": 67.8
+      },
+      "interviews": {
+        "totalParticipants": 4048,
+        "activeParticipants": 3572,
+        "totalStudies": 59,
+        "activeStudies": 20,
+        "averageEligibilityRate": 27,
+        "completionRate": 71.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 5028,
+        "activeParticipants": 3087,
+        "totalStudies": 43,
+        "activeStudies": 13,
+        "averageEligibilityRate": 41.9,
+        "completionRate": 66.1
+      }
+    },
+    "middleEastAfrica": {
+      "clinicalTrials": {
+        "totalParticipants": 4276,
+        "activeParticipants": 2885,
+        "totalStudies": 66,
+        "activeStudies": 30,
+        "averageEligibilityRate": 42.7,
+        "completionRate": 79.4
+      },
+      "surveys": {
+        "totalParticipants": 4157,
+        "activeParticipants": 3697,
+        "totalStudies": 47,
+        "activeStudies": 21,
+        "averageEligibilityRate": 29.9,
+        "completionRate": 66.4
+      },
+      "focusGroups": {
+        "totalParticipants": 4645,
+        "activeParticipants": 3979,
+        "totalStudies": 55,
+        "activeStudies": 34,
+        "averageEligibilityRate": 34,
+        "completionRate": 62.2
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 5281,
+        "activeParticipants": 3733,
+        "totalStudies": 80,
+        "activeStudies": 29,
+        "averageEligibilityRate": 43.2,
+        "completionRate": 77.1
+      },
+      "interviews": {
+        "totalParticipants": 4276,
+        "activeParticipants": 3734,
+        "totalStudies": 78,
+        "activeStudies": 41,
+        "averageEligibilityRate": 41,
+        "completionRate": 64.1
+      },
+      "observationalStudies": {
+        "totalParticipants": 5191,
+        "activeParticipants": 4316,
+        "totalStudies": 59,
+        "activeStudies": 31,
+        "averageEligibilityRate": 32.4,
+        "completionRate": 66.5
+      }
+    },
+    "oceania": {
+      "clinicalTrials": {
+        "totalParticipants": 4393,
+        "activeParticipants": 3318,
+        "totalStudies": 79,
+        "activeStudies": 30,
+        "averageEligibilityRate": 42.3,
+        "completionRate": 61.8
+      },
+      "surveys": {
+        "totalParticipants": 4191,
+        "activeParticipants": 3559,
+        "totalStudies": 73,
+        "activeStudies": 50,
+        "averageEligibilityRate": 26.6,
+        "completionRate": 64
+      },
+      "focusGroups": {
+        "totalParticipants": 4204,
+        "activeParticipants": 2839,
+        "totalStudies": 50,
+        "activeStudies": 25,
+        "averageEligibilityRate": 36.5,
+        "completionRate": 75
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 4661,
+        "activeParticipants": 3615,
+        "totalStudies": 75,
+        "activeStudies": 48,
+        "averageEligibilityRate": 25.4,
+        "completionRate": 73
+      },
+      "interviews": {
+        "totalParticipants": 5063,
+        "activeParticipants": 4464,
+        "totalStudies": 59,
+        "activeStudies": 24,
+        "averageEligibilityRate": 39.1,
+        "completionRate": 79.7
+      },
+      "observationalStudies": {
+        "totalParticipants": 5849,
+        "activeParticipants": 4639,
+        "totalStudies": 52,
+        "activeStudies": 34,
+        "averageEligibilityRate": 43.5,
+        "completionRate": 71.4
+      }
+    }
+  },
+  "30d": {
+    "all": {
+      "clinicalTrials": {
+        "totalParticipants": 25614,
+        "activeParticipants": 19102,
+        "totalStudies": 65,
+        "activeStudies": 32,
+        "averageEligibilityRate": 32.7,
+        "completionRate": 67.2
+      },
+      "surveys": {
+        "totalParticipants": 26067,
+        "activeParticipants": 17481,
+        "totalStudies": 60,
+        "activeStudies": 31,
+        "averageEligibilityRate": 36.1,
+        "completionRate": 62.2
+      },
+      "focusGroups": {
+        "totalParticipants": 19096,
+        "activeParticipants": 15293,
+        "totalStudies": 49,
+        "activeStudies": 21,
+        "averageEligibilityRate": 36.3,
+        "completionRate": 71.2
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 21773,
+        "activeParticipants": 14344,
+        "totalStudies": 57,
+        "activeStudies": 22,
+        "averageEligibilityRate": 41.1,
+        "completionRate": 69.9
+      },
+      "interviews": {
+        "totalParticipants": 25242,
+        "activeParticipants": 21360,
+        "totalStudies": 55,
+        "activeStudies": 22,
+        "averageEligibilityRate": 41.1,
+        "completionRate": 71.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 25920,
+        "activeParticipants": 16087,
+        "totalStudies": 71,
+        "activeStudies": 26,
+        "averageEligibilityRate": 33.5,
+        "completionRate": 75
+      }
+    },
+    "northAmerica": {
+      "clinicalTrials": {
+        "totalParticipants": 8829,
+        "activeParticipants": 7520,
+        "totalStudies": 74,
+        "activeStudies": 28,
+        "averageEligibilityRate": 28.4,
+        "completionRate": 69.8
+      },
+      "surveys": {
+        "totalParticipants": 9304,
+        "activeParticipants": 8349,
+        "totalStudies": 73,
+        "activeStudies": 22,
+        "averageEligibilityRate": 30.5,
+        "completionRate": 69.6
+      },
+      "focusGroups": {
+        "totalParticipants": 8395,
+        "activeParticipants": 5268,
+        "totalStudies": 63,
+        "activeStudies": 22,
+        "averageEligibilityRate": 42,
+        "completionRate": 68.5
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 7332,
+        "activeParticipants": 4974,
+        "totalStudies": 72,
+        "activeStudies": 29,
+        "averageEligibilityRate": 29.3,
+        "completionRate": 66.9
+      },
+      "interviews": {
+        "totalParticipants": 7609,
+        "activeParticipants": 6332,
+        "totalStudies": 41,
+        "activeStudies": 28,
+        "averageEligibilityRate": 26.3,
+        "completionRate": 67.4
+      },
+      "observationalStudies": {
+        "totalParticipants": 7426,
+        "activeParticipants": 5555,
+        "totalStudies": 41,
+        "activeStudies": 16,
+        "averageEligibilityRate": 26.3,
+        "completionRate": 69.3
+      }
+    },
+    "europe": {
+      "clinicalTrials": {
+        "totalParticipants": 9122,
+        "activeParticipants": 6033,
+        "totalStudies": 75,
+        "activeStudies": 46,
+        "averageEligibilityRate": 41.1,
+        "completionRate": 76.8
+      },
+      "surveys": {
+        "totalParticipants": 6688,
+        "activeParticipants": 4935,
+        "totalStudies": 76,
+        "activeStudies": 26,
+        "averageEligibilityRate": 36.1,
+        "completionRate": 65.3
+      },
+      "focusGroups": {
+        "totalParticipants": 7121,
+        "activeParticipants": 6256,
+        "totalStudies": 71,
+        "activeStudies": 28,
+        "averageEligibilityRate": 25.9,
+        "completionRate": 61.5
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 7652,
+        "activeParticipants": 4754,
+        "totalStudies": 51,
+        "activeStudies": 23,
+        "averageEligibilityRate": 30.3,
+        "completionRate": 63.1
+      },
+      "interviews": {
+        "totalParticipants": 8515,
+        "activeParticipants": 5833,
+        "totalStudies": 65,
+        "activeStudies": 40,
+        "averageEligibilityRate": 38.8,
+        "completionRate": 78.9
+      },
+      "observationalStudies": {
+        "totalParticipants": 7936,
+        "activeParticipants": 5872,
+        "totalStudies": 66,
+        "activeStudies": 28,
+        "averageEligibilityRate": 34,
+        "completionRate": 78.4
+      }
+    },
+    "asiaPacific": {
+      "clinicalTrials": {
+        "totalParticipants": 7140,
+        "activeParticipants": 4512,
+        "totalStudies": 42,
+        "activeStudies": 14,
+        "averageEligibilityRate": 36.2,
+        "completionRate": 62.5
+      },
+      "surveys": {
+        "totalParticipants": 7844,
+        "activeParticipants": 6781,
+        "totalStudies": 44,
+        "activeStudies": 15,
+        "averageEligibilityRate": 27.1,
+        "completionRate": 62.7
+      },
+      "focusGroups": {
+        "totalParticipants": 7744,
+        "activeParticipants": 5116,
+        "totalStudies": 47,
+        "activeStudies": 29,
+        "averageEligibilityRate": 32.2,
+        "completionRate": 79.9
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 9221,
+        "activeParticipants": 6087,
+        "totalStudies": 56,
+        "activeStudies": 32,
+        "averageEligibilityRate": 28.2,
+        "completionRate": 69.7
+      },
+      "interviews": {
+        "totalParticipants": 7815,
+        "activeParticipants": 6977,
+        "totalStudies": 59,
+        "activeStudies": 35,
+        "averageEligibilityRate": 39.9,
+        "completionRate": 66.9
+      },
+      "observationalStudies": {
+        "totalParticipants": 6537,
+        "activeParticipants": 5215,
+        "totalStudies": 76,
+        "activeStudies": 35,
+        "averageEligibilityRate": 32.2,
+        "completionRate": 67.2
+      }
+    },
+    "latinAmerica": {
+      "clinicalTrials": {
+        "totalParticipants": 7839,
+        "activeParticipants": 7051,
+        "totalStudies": 72,
+        "activeStudies": 24,
+        "averageEligibilityRate": 42.5,
+        "completionRate": 62.8
+      },
+      "surveys": {
+        "totalParticipants": 8658,
+        "activeParticipants": 6017,
+        "totalStudies": 40,
+        "activeStudies": 13,
+        "averageEligibilityRate": 26.2,
+        "completionRate": 72.8
+      },
+      "focusGroups": {
+        "totalParticipants": 9507,
+        "activeParticipants": 6127,
+        "totalStudies": 53,
+        "activeStudies": 32,
+        "averageEligibilityRate": 26.6,
+        "completionRate": 74.6
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 7596,
+        "activeParticipants": 5747,
+        "totalStudies": 44,
+        "activeStudies": 26,
+        "averageEligibilityRate": 44.9,
+        "completionRate": 61
+      },
+      "interviews": {
+        "totalParticipants": 8266,
+        "activeParticipants": 5466,
+        "totalStudies": 40,
+        "activeStudies": 21,
+        "averageEligibilityRate": 31.1,
+        "completionRate": 60.3
+      },
+      "observationalStudies": {
+        "totalParticipants": 7338,
+        "activeParticipants": 5568,
+        "totalStudies": 42,
+        "activeStudies": 27,
+        "averageEligibilityRate": 26.1,
+        "completionRate": 62.5
+      }
+    },
+    "middleEastAfrica": {
+      "clinicalTrials": {
+        "totalParticipants": 6421,
+        "activeParticipants": 4896,
+        "totalStudies": 72,
+        "activeStudies": 47,
+        "averageEligibilityRate": 38.3,
+        "completionRate": 77.3
+      },
+      "surveys": {
+        "totalParticipants": 8396,
+        "activeParticipants": 7343,
+        "totalStudies": 65,
+        "activeStudies": 32,
+        "averageEligibilityRate": 39.4,
+        "completionRate": 69.9
+      },
+      "focusGroups": {
+        "totalParticipants": 7599,
+        "activeParticipants": 5926,
+        "totalStudies": 46,
+        "activeStudies": 28,
+        "averageEligibilityRate": 33.1,
+        "completionRate": 67.7
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 7455,
+        "activeParticipants": 6484,
+        "totalStudies": 76,
+        "activeStudies": 39,
+        "averageEligibilityRate": 27.3,
+        "completionRate": 72.2
+      },
+      "interviews": {
+        "totalParticipants": 9141,
+        "activeParticipants": 7727,
+        "totalStudies": 64,
+        "activeStudies": 30,
+        "averageEligibilityRate": 40.9,
+        "completionRate": 66.5
+      },
+      "observationalStudies": {
+        "totalParticipants": 7674,
+        "activeParticipants": 5655,
+        "totalStudies": 62,
+        "activeStudies": 20,
+        "averageEligibilityRate": 35.9,
+        "completionRate": 79.4
+      }
+    },
+    "oceania": {
+      "clinicalTrials": {
+        "totalParticipants": 8041,
+        "activeParticipants": 6337,
+        "totalStudies": 67,
+        "activeStudies": 20,
+        "averageEligibilityRate": 29.6,
+        "completionRate": 63.6
+      },
+      "surveys": {
+        "totalParticipants": 9392,
+        "activeParticipants": 5901,
+        "totalStudies": 64,
+        "activeStudies": 22,
+        "averageEligibilityRate": 28,
+        "completionRate": 75
+      },
+      "focusGroups": {
+        "totalParticipants": 8009,
+        "activeParticipants": 6132,
+        "totalStudies": 49,
+        "activeStudies": 26,
+        "averageEligibilityRate": 34.2,
+        "completionRate": 70.5
+      },
+      "longitudinalStudies": {
+        "totalParticipants": 8157,
+        "activeParticipants": 4954,
+        "totalStudies": 70,
+        "activeStudies": 48,
+        "averageEligibilityRate": 42,
+        "completionRate": 71.3
+      },
+      "interviews": {
+        "totalParticipants": 7965,
+        "activeParticipants": 5074,
+        "totalStudies": 65,
+        "activeStudies": 34,
+        "averageEligibilityRate": 38.2,
+        "completionRate": 70.6
+      },
+      "observationalStudies": {
+        "totalParticipants": 6973,
+        "activeParticipants": 4539,
+        "totalStudies": 70,
+        "activeStudies": 24,
+        "averageEligibilityRate": 39.6,
+        "completionRate": 77.9
+      }
+    }
+  }
 }

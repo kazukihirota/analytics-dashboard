@@ -43,6 +43,13 @@ export class DashboardRouter {
         this.dashboardController.getComparisonData(req, res)
       )
     );
+
+    this.router.get(
+      '/demographics',
+      handleRequest((req, res) =>
+        this.dashboardController.getDemographicData(req, res)
+      )
+    );
   }
 
   getRoutes() {

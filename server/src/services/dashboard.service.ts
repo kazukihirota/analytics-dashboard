@@ -3,13 +3,19 @@ import * as fs from 'fs/promises';
 import * as path from 'path';
 import {
   SummaryMetrics,
+  SummaryData,
   TrendData,
   ComparisonData,
   TimeRange,
-  TrendDataByTimeRange,
   ComparisonDimension,
   ComparisonDataByDimension,
-} from '../types/dashboard.types';
+  Region,
+  StudyType,
+  TrendDataByTimeRange,
+  DemographicData,
+  DemographicDimension,
+  DemographicDataByDimension,
+} from '../../../shared/types/dashboard';
 
 @injectable()
 export class DashboardService {
@@ -25,23 +31,47 @@ export class DashboardService {
     return JSON.parse(data) as T;
   }
 
-  async getSummaryMetrics(): Promise<SummaryMetrics> {
-    return this.readJsonFile<SummaryMetrics>('summary.json');
+  async getSummaryMetrics(
+    timeRange: TimeRange,
+    region: Region,
+    studyType: StudyType
+  ): Promise<SummaryMetrics> {
+    const summary = await this.readJsonFile<SummaryData>('summary.json');
+
+    return summary[timeRange][region][studyType];
   }
 
-  async getTrendData(timeRange: TimeRange): Promise<TrendDataByTimeRange> {
+  async getTrendData(
+    timeRange: TimeRange,
+    region: Region,
+    studyType: StudyType
+  ): Promise<TrendDataByTimeRange> {
     const trends: TrendData = await this.readJsonFile<TrendData>('trends.json');
 
-    return trends.timeRanges[timeRange];
+    return trends[timeRange][region][studyType];
   }
 
   async getComparisonData(
+    timeRange: TimeRange,
     dimension: ComparisonDimension
   ): Promise<ComparisonDataByDimension> {
     const comparisons = await this.readJsonFile<ComparisonData>(
       'comparisons.json'
     );
 
-    return comparisons[dimension];
+    return comparisons[timeRange][dimension];
+  }
+
+  async getDemographicData(
+    timeRange: TimeRange,
+    region: Region,
+    studyType: StudyType,
+    dimension: DemographicDimension
+  ): Promise<DemographicDataByDimension> {
+    const demographics = await this.readJsonFile<DemographicData>(
+      'demographics.json'
+    );
+
+    return demographics[timeRange][region][studyType][dimension];
   }
 }

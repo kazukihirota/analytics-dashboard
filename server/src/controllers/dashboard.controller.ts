@@ -3,20 +3,16 @@ import { injectable, inject } from 'inversify';
 import { DashboardService } from '../services/dashboard.service';
 import { AuthenticatedRequest } from '../middleware/auth.middleware';
 import { TYPES } from '../types';
-import {
-  TimeRange,
-  ComparisonDimension,
-  COMPARISON_DIMENSIONS,
-  TIME_RANGES,
-} from '../types/dashboard.types';
+import { IResponse } from '../../../shared/types/response';
 import { StatusCodes } from 'http-status-codes';
-
-class ValidationError extends Error {
-  constructor(message: string) {
-    super(message);
-    this.name = 'ValidationError';
-  }
-}
+import {
+  ValidationError,
+  validateTimeRange,
+  validateComparisonDimension,
+  validateRegion,
+  validateDemographicDimension,
+  validateStudyType,
+} from '../validators/paramValidator';
 
 @injectable()
 export class DashboardController {
@@ -24,22 +20,41 @@ export class DashboardController {
     @inject(TYPES.DashboardService) private dashboardService: DashboardService
   ) {}
 
+  private formatResponse<T>(
+    data: T | null,
+    success: boolean = true,
+    error?: string,
+    message?: string
+  ): IResponse<T> {
+    return {
+      success,
+      data,
+      timestamp: new Date().toISOString(),
+      ...(error && { error }),
+      ...(message && { message }),
+    };
+  }
+
   private handleError(error: unknown, res: Response): void {
     if (error instanceof ValidationError) {
-      res.status(StatusCodes.BAD_REQUEST).json({
-        success: false,
-        error: error.name,
-        message: error.message,
-      });
+      const response = this.formatResponse(
+        null,
+        false,
+        error.name,
+        error.message
+      );
+      res.status(StatusCodes.BAD_REQUEST).json(response);
       return;
     }
 
     console.error('Unexpected error:', error);
-    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
-      success: false,
-      error: 'InternalServerError',
-      message: 'An unexpected error occurred',
-    });
+    const response = this.formatResponse(
+      null,
+      false,
+      'InternalServerError',
+      'An unexpected error occurred'
+    );
+    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(response);
   }
 
   async getSummaryMetrics(
@@ -47,12 +62,23 @@ export class DashboardController {
     res: Response
   ): Promise<void> {
     try {
-      const metrics = await this.dashboardService.getSummaryMetrics();
-      res.json({
-        success: true,
-        data: metrics,
-        timestamp: new Date().toISOString(),
-      });
+      const timeRange = req.query.timeRange;
+      validateTimeRange(timeRange);
+
+      const region = req.query.region;
+      validateRegion(region);
+
+      const studyType = req.query.studyType;
+      validateStudyType(studyType);
+
+      const metrics = await this.dashboardService.getSummaryMetrics(
+        timeRange,
+        region,
+        studyType
+      );
+
+      const response = this.formatResponse(metrics);
+      res.json(response);
     } catch (error) {
       this.handleError(error, res);
     }
@@ -60,21 +86,23 @@ export class DashboardController {
 
   async getTrendData(req: AuthenticatedRequest, res: Response): Promise<void> {
     try {
-      const timeRange = req.query.timeRange as TimeRange;
-      if (!timeRange || !Object.values(TIME_RANGES).includes(timeRange)) {
-        throw new ValidationError(
-          `Invalid timeRange parameter. Must be one of: ${Object.values(
-            TIME_RANGES
-          ).join(', ')}`
-        );
-      }
+      const timeRange = req.query.timeRange;
+      validateTimeRange(timeRange);
 
-      const trendData = await this.dashboardService.getTrendData(timeRange);
-      res.json({
-        success: true,
-        data: trendData,
-        timestamp: new Date().toISOString(),
-      });
+      const region = req.query.region;
+      validateRegion(region);
+
+      const studyType = req.query.studyType;
+      validateStudyType(studyType);
+
+      const trendData = await this.dashboardService.getTrendData(
+        timeRange,
+        region,
+        studyType
+      );
+
+      const response = this.formatResponse(trendData);
+      res.json(response);
     } catch (error) {
       this.handleError(error, res);
     }
@@ -85,26 +113,51 @@ export class DashboardController {
     res: Response
   ): Promise<void> {
     try {
-      const dimension = req.query.dimension as ComparisonDimension;
-      if (
-        !dimension ||
-        !Object.values(COMPARISON_DIMENSIONS).includes(dimension)
-      ) {
-        throw new ValidationError(
-          `Invalid dimension parameter. Must be one of: ${Object.values(
-            COMPARISON_DIMENSIONS
-          ).join(', ')}`
-        );
-      }
+      const timeRange = req.query.timeRange;
+      validateTimeRange(timeRange);
+
+      const dimension = req.query.dimension;
+      validateComparisonDimension(dimension);
 
       const comparisonData = await this.dashboardService.getComparisonData(
+        timeRange,
         dimension
       );
-      res.json({
-        success: true,
-        data: comparisonData,
-        timestamp: new Date().toISOString(),
-      });
+
+      const response = this.formatResponse(comparisonData);
+      res.json(response);
+    } catch (error) {
+      this.handleError(error, res);
+    }
+  }
+
+  async getDemographicData(
+    req: AuthenticatedRequest,
+    res: Response
+  ): Promise<void> {
+    try {
+      const timeRange = req.query.timeRange;
+      validateTimeRange(timeRange);
+
+      const region = req.query.region;
+      validateRegion(region);
+
+      const studyType = req.query.studyType;
+      validateStudyType(studyType);
+
+      const dimension = req.query.dimension;
+      validateDemographicDimension(dimension);
+
+      const demographicData = await this.dashboardService.getDemographicData(
+        timeRange,
+        region,
+        studyType,
+        dimension
+      );
+
+      const response = this.formatResponse(demographicData);
+
+      res.json(response);
     } catch (error) {
       this.handleError(error, res);
     }

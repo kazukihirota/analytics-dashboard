@@ -1,72 +1,323 @@
 {
-  "studyType": {
-    "dimension": "studyType",
-    "metrics": [
-      {
-        "name": "Clinical Trials",
-        "applications": 2186,
-        "completions": 317
-      },
-      {
-        "name": "Surveys",
-        "applications": 1890,
-        "completions": 2698
-      },
-      {
-        "name": "Focus Groups",
-        "applications": 1552,
-        "completions": 709
-      },
-      {
-        "name": "Longitudinal Studies",
-        "applications": 2021,
-        "completions": 2873
-      },
-      {
-        "name": "Interviews",
-        "applications": 3452,
-        "completions": 1346
-      },
-      {
-        "name": "Observational Studies",
-        "applications": 2346,
-        "completions": 2933
-      }
-    ]
+  "7d": {
+    "studyType": {
+      "dimension": "studyType",
+      "metrics": [
+        {
+          "name": "clinicalTrials",
+          "applications": 3211,
+          "completions": 427
+        },
+        {
+          "name": "surveys",
+          "applications": 3502,
+          "completions": 640
+        },
+        {
+          "name": "focusGroups",
+          "applications": 3752,
+          "completions": 1712
+        },
+        {
+          "name": "longitudinalStudies",
+          "applications": 1755,
+          "completions": 2697
+        },
+        {
+          "name": "interviews",
+          "applications": 2624,
+          "completions": 553
+        },
+        {
+          "name": "observationalStudies",
+          "applications": 2793,
+          "completions": 1274
+        }
+      ]
+    },
+    "ageGroup": {
+      "dimension": "ageGroup",
+      "metrics": [
+        {
+          "name": "18-24",
+          "applications": 2757,
+          "completions": 421
+        },
+        {
+          "name": "25-34",
+          "applications": 1114,
+          "completions": 2001
+        },
+        {
+          "name": "35-44",
+          "applications": 3635,
+          "completions": 2569
+        },
+        {
+          "name": "45-54",
+          "applications": 1433,
+          "completions": 2864
+        },
+        {
+          "name": "55-64",
+          "applications": 3534,
+          "completions": 400
+        },
+        {
+          "name": "65+",
+          "applications": 1769,
+          "completions": 914
+        }
+      ]
+    },
+    "region": {
+      "dimension": "region",
+      "metrics": [
+        {
+          "name": "northAmerica",
+          "applications": 2039,
+          "completions": 2164
+        },
+        {
+          "name": "europe",
+          "applications": 3242,
+          "completions": 2495
+        },
+        {
+          "name": "asiaPacific",
+          "applications": 4404,
+          "completions": 2397
+        },
+        {
+          "name": "latinAmerica",
+          "applications": 3310,
+          "completions": 3021
+        },
+        {
+          "name": "middleEastAfrica",
+          "applications": 1998,
+          "completions": 2545
+        },
+        {
+          "name": "oceania",
+          "applications": 2883,
+          "completions": 3040
+        }
+      ]
+    }
   },
-  "ageGroup": {
-    "dimension": "ageGroup",
-    "metrics": [
-      {
-        "name": "18-24",
-        "applications": 432,
-        "completions": 378
-      },
-      {
-        "name": "25-34",
-        "applications": 3379,
-        "completions": 834
-      },
-      {
-        "name": "35-44",
-        "applications": 421,
-        "completions": 2907
-      },
-      {
-        "name": "45-54",
-        "applications": 3710,
-        "completions": 2390
-      },
-      {
-        "name": "55-64",
-        "applications": 3570,
-        "completions": 1439
-      },
-      {
-        "name": "65+",
-        "applications": 1374,
-        "completions": 1373
-      }
-    ]
+  "14d": {
+    "studyType": {
+      "dimension": "studyType",
+      "metrics": [
+        {
+          "name": "clinicalTrials",
+          "applications": 5241,
+          "completions": 819
+        },
+        {
+          "name": "surveys",
+          "applications": 3100,
+          "completions": 2772
+        },
+        {
+          "name": "focusGroups",
+          "applications": 5781,
+          "completions": 3435
+        },
+        {
+          "name": "longitudinalStudies",
+          "applications": 4242,
+          "completions": 4104
+        },
+        {
+          "name": "interviews",
+          "applications": 5709,
+          "completions": 2052
+        },
+        {
+          "name": "observationalStudies",
+          "applications": 5680,
+          "completions": 3793
+        }
+      ]
+    },
+    "ageGroup": {
+      "dimension": "ageGroup",
+      "metrics": [
+        {
+          "name": "18-24",
+          "applications": 723,
+          "completions": 3282
+        },
+        {
+          "name": "25-34",
+          "applications": 2598,
+          "completions": 472
+        },
+        {
+          "name": "35-44",
+          "applications": 669,
+          "completions": 4158
+        },
+        {
+          "name": "45-54",
+          "applications": 4165,
+          "completions": 741
+        },
+        {
+          "name": "55-64",
+          "applications": 5947,
+          "completions": 3549
+        },
+        {
+          "name": "65+",
+          "applications": 3348,
+          "completions": 4191
+        }
+      ]
+    },
+    "region": {
+      "dimension": "region",
+      "metrics": [
+        {
+          "name": "northAmerica",
+          "applications": 2925,
+          "completions": 3534
+        },
+        {
+          "name": "europe",
+          "applications": 4365,
+          "completions": 4443
+        },
+        {
+          "name": "asiaPacific",
+          "applications": 2346,
+          "completions": 2845
+        },
+        {
+          "name": "latinAmerica",
+          "applications": 4975,
+          "completions": 4128
+        },
+        {
+          "name": "middleEastAfrica",
+          "applications": 2764,
+          "completions": 4869
+        },
+        {
+          "name": "oceania",
+          "applications": 2226,
+          "completions": 3031
+        }
+      ]
+    }
+  },
+  "30d": {
+    "studyType": {
+      "dimension": "studyType",
+      "metrics": [
+        {
+          "name": "clinicalTrials",
+          "applications": 3616,
+          "completions": 5625
+        },
+        {
+          "name": "surveys",
+          "applications": 7348,
+          "completions": 5555
+        },
+        {
+          "name": "focusGroups",
+          "applications": 4996,
+          "completions": 6529
+        },
+        {
+          "name": "longitudinalStudies",
+          "applications": 6157,
+          "completions": 6030
+        },
+        {
+          "name": "interviews",
+          "applications": 3403,
+          "completions": 3440
+        },
+        {
+          "name": "observationalStudies",
+          "applications": 5495,
+          "completions": 1438
+        }
+      ]
+    },
+    "ageGroup": {
+      "dimension": "ageGroup",
+      "metrics": [
+        {
+          "name": "18-24",
+          "applications": 1595,
+          "completions": 4767
+        },
+        {
+          "name": "25-34",
+          "applications": 2142,
+          "completions": 3300
+        },
+        {
+          "name": "35-44",
+          "applications": 829,
+          "completions": 3218
+        },
+        {
+          "name": "45-54",
+          "applications": 6188,
+          "completions": 4721
+        },
+        {
+          "name": "55-64",
+          "applications": 3234,
+          "completions": 697
+        },
+        {
+          "name": "65+",
+          "applications": 2692,
+          "completions": 4153
+        }
+      ]
+    },
+    "region": {
+      "dimension": "region",
+      "metrics": [
+        {
+          "name": "northAmerica",
+          "applications": 7284,
+          "completions": 6943
+        },
+        {
+          "name": "europe",
+          "applications": 5513,
+          "completions": 6195
+        },
+        {
+          "name": "asiaPacific",
+          "applications": 5799,
+          "completions": 3823
+        },
+        {
+          "name": "latinAmerica",
+          "applications": 2065,
+          "completions": 730
+        },
+        {
+          "name": "middleEastAfrica",
+          "applications": 3570,
+          "completions": 4419
+        },
+        {
+          "name": "oceania",
+          "applications": 5610,
+          "completions": 5603
+        }
+      ]
+    }
   }
 }
